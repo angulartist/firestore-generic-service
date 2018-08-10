@@ -1,2 +1,3 @@
 # generic-db-service
-article example
+
+Exemple pour https://notreact.io/generic-methods
