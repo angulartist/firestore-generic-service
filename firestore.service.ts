@@ -86,7 +86,7 @@ export class FirestoreService {
   }
 
   // get the entier collection with the uid
-  getItems$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<T[]> {
+  col$<T>(ref: CollectionPredicate<T>, queryFn?): Observable<T[]> {
     return this.col(ref, queryFn)
       .snapshotChanges()
       .pipe(
