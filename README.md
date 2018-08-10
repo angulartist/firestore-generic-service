@@ -1,3 +1,3 @@
 # generic-db-service
 
-Exemple pour https://notreact.io/generic-methods
+Exemple pour mon blog https://notreact.io/blog/generic-methods
