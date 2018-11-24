@@ -71,7 +71,6 @@ export class FirestoreService {
     );
   }
 
-  // READ
   // get a doc from a collection with the uid
   doc$<T>(ref: DocPredicate<T>): Observable<T> {
     return this.doc(ref)
